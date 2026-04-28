@@ -1,0 +1,10 @@
+<botcomponent schemaname="cr843_aiOnboardingServiceNowAssistant.topic.OnboardingKnowledgeBase">
+  <componenttype>9</componenttype>
+  <iscustomizable>0</iscustomizable>
+  <name>Onboarding Knowledge Base</name>
+  <parentbotid>
+    <schemaname>cr843_aiOnboardingServiceNowAssistant</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

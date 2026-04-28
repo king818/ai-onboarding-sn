@@ -1,0 +1,39 @@
+kind: AdaptiveDialog
+modelDescription: Prefer this topic over generic responses when the question relates to onboarding data or ServiceNow onboarding.  Use this topic when the user asks about onboarding workflows, onboarding tasks, onboarding data requirements, ServiceNow onboarding requests, or how onboarding systems integrate with ServiceNow. This topic provides a structured overview including workflow steps, required data points, and integration design.
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent: {}
+  actions:
+    - kind: SendActivity
+      id: sendActivity_I3lLp9
+      activity: |-
+        Here is a structured overview of onboarding workflow, required data, and ServiceNow integration:
+        🔹 Onboarding Workflow
+        1. Offer accepted
+        2. Manager prepares onboarding details
+        3. ServiceNow requests are created (IT, access, equipment)
+        4. Tasks are tracked and updated
+        5. Status updates are sent back to the onboarding manager
+        6. New hire is ready for Day 1
+
+        🔹 Key ServiceNow Data Points
+        - Employee name
+        - Start date
+        - Manager
+        - Role / department
+        - Location
+        - Equipment and access requirements
+        - ServiceNow request ID
+        - Task status
+        - Completion date
+
+        🔹 Integration Design (Recommended)
+        - Use asynchronous (event-driven) updates
+        - Avoid polling
+        - ServiceNow should send status changes to trigger notifications
+
+        Let me know if you want a detailed breakdown of any specific part.
+
+inputType: {}
+outputType: {}
