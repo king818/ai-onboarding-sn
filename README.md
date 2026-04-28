@@ -169,13 +169,15 @@ pac solution import --path solution.zip --publish-changes
 README.md
 solution.zip
 solution/
+  botcomponents/
+  bots/
   Other/
-  Workflows/
-  customizations.xml
 scripts/
   export.ps1
   import.ps1
 ```
+
+The `solution/` folder is what `pac solution unpack` produces. `bots/` and `botcomponents/` hold the Copilot Studio agent definition and its components; `Other/` contains solution-level metadata (`Solution.xml`, `Customizations.xml`, etc.).
 
 ---
 
