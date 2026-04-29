@@ -6,21 +6,6 @@
   <language>1033</language>
   <name>AI Onboarding ServiceNow Assistant</name>
   <runtimeprovider>0</runtimeprovider>
-  <synchronizationstatus>{
-  "$kind": "BotSynchronizationDetails",
-  "contentVersion": 2,
-  "currentSynchronizationState": {
-    "$kind": "SynchronizationState",
-    "botRegistration": {
-      "$kind": "BotRegistrationDetails",
-      "botRegistrationIdConsumptionTime": "2026-04-28T01:12:03Z",
-      "applicationId": "c2bc9d46-8f6d-4283-b68b-14ab8f56143f",
-      "isAppAvailableInTenant": true
-    },
-    "provisioningStatus": "Provisioned",
-    "state": "Synchronized"
-  },
-  "lastSynchronizedOnUtc": "2026-04-28T01:12:16.3071482Z"
-}</synchronizationstatus>
+  <synchronizationstatus>{"lastFinishedPublishOperation":{"$kind":"PublishResultDetails","diagnosticDetails":[{"$kind":"ComponentDiagnosticResult","diagnosticList":[{"$kind":"SearchAndSummarizeContentError","errorCode":"BingSearchBlocked","errorMessage":"Bing Search will not work in your environment."}],"componentId":"68f27a13-b211-4c1a-a84e-1b9afd2b8033"},{"$kind":"BotDiagnosticResult","diagnosticList":[{"$kind":"DlpViolationError","violationType":"BlockedConnector","errorMessage":"At least one connector here has been blocked by your admin"}]}],"userId":"57f3e428-71c0-4524-af08-7a70559396f2","operationEnd":"2026-04-29T16:39:35.8888008Z","status":"Failed"},"contentVersion":2,"$kind":"BotSynchronizationDetails","lastPublishedDetails":{"$kind":"SuccessfulPublishResultDetails"},"currentSynchronizationState":{"$kind":"SynchronizationState","botRegistration":{"$kind":"BotRegistrationDetails","botRegistrationIdConsumptionTime":"2026-04-28T01:12:03Z","applicationId":"c2bc9d46-8f6d-4283-b68b-14ab8f56143f","isAppAvailableInTenant":true},"provisioningStatus":"Provisioned","state":"Synchronizing"},"lastSynchronizedOnUtc":"2026-04-28T19:44:30.4854657Z"}</synchronizationstatus>
   <template>default-2.1.0</template>
 </bot>
